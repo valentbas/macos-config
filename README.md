@@ -34,6 +34,7 @@ brew bundle install
 | `brew install <formula>` | Install a command-line package |
 | `brew install --cask <cask>` | Install a GUI app |
 | `brew uninstall <name>` | Uninstall a package or app |
+| `brew uninstall --cask --zap <cask>` | Uninstall a GUI app and all its associated files (preferences, caches, etc.) |
 | `brew autoremove` | Remove dependencies that are no longer needed |
 
 ### Updating
