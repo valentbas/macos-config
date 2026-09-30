@@ -2,6 +2,8 @@
 brew "dockutil"
 # Distributed revision control system
 brew "git"
+# Cross-shell prompt for astronauts
+brew "starship"
 # Vi 'workalike' with many additional features
 brew "vim"
 # Terminal-based AI coding assistant
