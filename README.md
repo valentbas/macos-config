@@ -4,7 +4,7 @@ MacOS setup, managed with [Homebrew](https://brew.sh) and a `Brewfile`.
 
 ## Setup
 
-Run everything (installs Homebrew if needed, the `Brewfile`, Starship, and the Dock):
+Run everything (installs Homebrew if needed, the `Brewfile`, Starship, your Git name and email, and the Dock):
 
 ```sh
 ./setup.zsh
