@@ -1,3 +1,5 @@
+# Tool for managing dock items
+brew "dockutil"
 # Distributed revision control system
 brew "git"
 # Vi 'workalike' with many additional features

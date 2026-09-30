@@ -16,6 +16,12 @@ Install everything in the `Brewfile`:
 brew bundle install
 ```
 
+Set up the Dock (edit the app list in `dock.sh` first):
+
+```sh
+./dock.sh
+```
+
 ## Useful brew commands
 
 ### Brewfile
