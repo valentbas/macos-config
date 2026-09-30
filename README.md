@@ -4,23 +4,13 @@ MacOS setup, managed with [Homebrew](https://brew.sh) and a `Brewfile`.
 
 ## Setup
 
-Install Homebrew:
+Run everything (installs Homebrew if needed, the `Brewfile`, Starship, and the Dock):
 
 ```sh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+./setup.zsh
 ```
 
-Install everything in the `Brewfile`:
-
-```sh
-brew bundle install
-```
-
-Set up the Dock (edit the app list in `dock.sh` first):
-
-```sh
-./dock.sh
-```
+To change the Dock, edit the app list in `dock.zsh`.
 
 ## Useful brew commands
 

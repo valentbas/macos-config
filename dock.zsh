@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/zsh
 # Set up the Dock: replace all items with the apps and folders listed below.
 set -euo pipefail
 
@@ -29,11 +29,9 @@ for app in "${apps[@]}"; do
   fi
 done
 
-if (( ${#folders[@]} > 0 )); then
-  for folder in "${folders[@]}"; do
-    dockutil --add "$folder" --view grid --display folder --no-restart
-  done
-fi
+for folder in "${folders[@]}"; do
+  dockutil --add "$folder" --view grid --display folder --no-restart
+done
 
 # Don't show recently used apps
 defaults write com.apple.dock show-recents -bool false
