@@ -14,6 +14,8 @@ cask "discord"
 cask "firefox"
 # Password manager app
 cask "keepassxc"
+# Customise mouse behavior
+cask "linearmouse"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "anthropic.claude-code"
