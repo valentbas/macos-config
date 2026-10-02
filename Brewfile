@@ -8,6 +8,8 @@ brew "starship"
 brew "vim"
 # Terminal-based AI coding assistant
 cask "claude-code"
+# Voice and text chat software
+cask "discord"
 # Web browser
 cask "firefox"
 # Password manager app
