@@ -2,6 +2,8 @@
 brew "dockutil"
 # Distributed revision control system
 brew "git"
+# Interpreted, interactive, object-oriented programming language
+brew "python@3.15"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Vi 'workalike' with many additional features
@@ -19,3 +21,7 @@ cask "linearmouse"
 # Open-source code editor
 cask "visual-studio-code"
 vscode "anthropic.claude-code"
+vscode "ms-python.debugpy"
+vscode "ms-python.python"
+vscode "ms-python.vscode-pylance"
+vscode "ms-python.vscode-python-envs"
